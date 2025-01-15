@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+:root {
+  --color-light-bg: #ffffff;
+  --color-light-text: #000000;
+  --color-dark-bg: #1e293b;
+  --color-dark-text: #ffffff;
+  --color-light-border: #e5e7eb; 
+  --color-dark-border: #374151; 
+}
+
+body.light {
+  background-color: var(--color-light-bg);
+  color: var(--color-light-text);
+}
+
+body.dark {
+  background-color: var(--color-dark-bg);
+  color: var(--color-dark-text);
+}
