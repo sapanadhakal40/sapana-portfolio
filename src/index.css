@@ -10,6 +10,20 @@
   --color-dark-text: #ffffff;
   --color-light-border: #e5e7eb; 
   --color-dark-border: #374151; 
+
+
+  --color-light-bg-secondary: #f9fafb;
+  --color-light-card: #ffffff;
+  --color-light-primary: #3b82f6;
+  --color-light-primary-hover: #2563eb;
+  --color-light-shadow: rgba(0, 0, 0, 0.1);
+
+  --color-dark-bg-secondary: #1f2937;
+  --color-dark-card: #374151;
+  --color-dark-primary: #60a5fa;
+  --color-dark-primary-hover: #3b82f6;
+  --color-dark-shadow: rgba(0, 0, 0, 0.25);
+
 }
 
 body.light {
