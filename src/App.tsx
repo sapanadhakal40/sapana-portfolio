@@ -1,6 +1,11 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Home from './Pages/Home'
+import Projects from './Pages/Projects';
+import Contact from './Pages/Contact';
+
+
 
 const App: React.FC = () => {
   const [isDarkMode, setIsDarkMode] = React.useState(false);
@@ -15,7 +20,11 @@ const App: React.FC = () => {
     <Router>
       <Navbar isDarkMode={isDarkMode} toggleTheme={toggleTheme}/>
       <Routes>
-        <Route path="/" element={<h1>Home</h1>} />
+      <Route path="/" element={<Home />} />
+      <Route path="/projects" element={<Projects />} />
+      <Route path="/contact" element={<Contact />} />
+     
+
     
       </Routes>
     </Router>
